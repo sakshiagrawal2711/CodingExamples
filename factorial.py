@@ -1,7 +1,8 @@
 
-def fact(n):
-    if n < 2:
+def fact(mvar):
+    if mvar < 2:
         return 1
-    return n*fact(n-1)
-
-print(fact(5))
+    return mvar*fact(mvar-1)
+I = input()
+print("Factorial of: "+I)
+print("is "+str(fact(int(I))))
