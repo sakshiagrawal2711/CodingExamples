@@ -4,3 +4,4 @@ def swap(a,b):
     return a,b
 
 print(swap(input(),input()))
+print(tttt)
